@@ -20,3 +20,13 @@
 
 # status
 - `git status` It shows the state of the staging area and the working directory.
+
+# 🔁 --rebase ka matlab kya hai?
+- 📌 Simple Meaning:
+- --rebase ka matlab hai:
+
+- "Mere local commits ko remote branch ke latest commits ke baad laga do, bina merge commit banaye."
+
+# `git pull` = git fetch + git merge
+# `git pull --rebase` = git fetch + git rebase
+- Ye aapke commits ko replay karta hai remote changes ke baad, jisse commit history clean aur straight line mein dikhti hai.
